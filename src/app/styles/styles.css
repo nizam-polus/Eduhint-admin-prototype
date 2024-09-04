@@ -1,0 +1,22 @@
+/* SchoolList.css */
+.boolean-input-container {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.boolean-input-container .MuiFormControlLabel-label {
+    font-weight: bold;
+    color: #333;
+}
+
+.boolean-input-container .MuiCheckbox-root {
+    color: #1976d2; /* Primary color */
+    padding: 10px;
+}
+
+.boolean-input-container .MuiCheckbox-root.Mui-checked {
+    color: #115293; /* Darker color when checked */
+}

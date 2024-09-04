@@ -1,0 +1,35 @@
+.custom-metadata-tree {
+    background-color: #f0f2f5; /* Light grey background for the tree */
+    padding: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  .custom-metadata-tree .ant-tree-node-content-wrapper {
+    padding: 4px 8px;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .custom-metadata-tree .ant-tree-node-content-wrapper:hover {
+    background-color: #e6f7ff; /* Light blue on hover */
+    color: #1890ff; /* Primary color for text */
+  }
+  
+  .custom-metadata-tree .ant-tree-treenode-selected .ant-tree-node-content-wrapper {
+    background-color: #bae7ff; /* Selected node background */
+    color: #096dd9; /* Selected node text color */
+  }
+  
+  .custom-metadata-tree .ant-tree-title {
+    font-weight: 500;
+  }
+  
+  .custom-metadata-tree .ant-tree-switcher {
+    background-color: #d9d9d9; /* Color of the expand/collapse icons */
+  }
+  
+  .custom-metadata-tree .ant-tree-switcher:hover {
+    background-color: #40a9ff; /* Hover color for expand/collapse icons */
+  }
+  
