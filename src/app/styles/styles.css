@@ -20,3 +20,26 @@
 .boolean-input-container .MuiCheckbox-root.Mui-checked {
     color: #115293; /* Darker color when checked */
 }
+
+/* tooltip  */
+.parent-tool{
+    display: flex;
+    gap: 20px;
+}
+
+/* toogle btn  */
+.css-ueukts-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+    color: rgba(0, 0, 0, 0.87);
+    background-color: rgb(92, 203, 255) !important ;
+}
+.css-bghv3y-MuiToggleButtonGroup-root {
+    background-color: rgb(240 240 241) !important;
+}
+
+/* popup */
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    height: 100% !important;
+}
+.css-qfz70r-MuiFormGroup-root {
+    display: contents !important;
+}
