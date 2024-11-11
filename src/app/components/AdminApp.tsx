@@ -7,6 +7,9 @@ import { SchoolEdit } from "../admin/resources/schools/SchoolEdit";
 import { baseUrl } from "@/config";
 import MetadataList from "../admin/resources/metadatas/MetadataList";
 import MetadataEdit from "../admin/resources/metadatas/MetadataEdit";
+import { Schooltest } from "../admin/resources/Schooltest/Schooltest";
+import { TenantEdit } from "../admin/resources/tenants/TenantEdit";
+import { TenantCreate } from "../admin/resources/tenants/TenantCreate";
 
 const dataProvider = simpleRestProvider(baseUrl);
 
@@ -18,10 +21,21 @@ const AdminApp = () => (
       edit={SchoolEdit}
       recordRepresentation="name"
     />
+        <Resource
+    name="tenants"
+    list={ListGuesser}
+    edit={TenantEdit}
+    create={TenantCreate}
+    />
     <Resource
       name="metadatas"
       list={MetadataList}
       edit={MetadataEdit}
+      recordRepresentation="name"
+    />
+      <Resource
+      name="test-harness"
+      list={Schooltest}
       recordRepresentation="name"
     />
   </Admin>
